@@ -15,7 +15,7 @@ An example contribution related to the **Design Patterns** section in the README
 
 Example of a **Singleton pattern implementation**:
 
-``javascript
+``` javascript
 class Singleton {
   constructor() {
     if (Singleton.instance) {
@@ -31,6 +31,7 @@ const instance1 = new Singleton();
 const instance2 = new Singleton();'''
 
 console.log(instance1 === instance2); 
+```
 
 // true## External Community Contribution Plan
 
